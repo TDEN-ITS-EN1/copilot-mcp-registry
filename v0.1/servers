@@ -1,0 +1,14 @@
+{
+  "servers": [
+    {
+      "id": "codegraph",
+      "name": "CodeGraph",
+      "description": "Local source code graph indexer using Tree-sitter",
+      "transport": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["@colbymchenry/codegraph", "serve", "--mcp"]
+      }
+    }
+  ]
+}
